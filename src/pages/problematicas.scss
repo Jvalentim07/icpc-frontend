@@ -1,0 +1,9 @@
+.headerProblematic {
+    width: 100%; 
+    display: flex; 
+    flex-direction: column;
+    .headerGroup {
+        width: 100%; 
+        height: 700px;
+    }
+}

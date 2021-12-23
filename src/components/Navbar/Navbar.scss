@@ -1,0 +1,32 @@
+.navbar {
+    color: black;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    min-width: none;
+    justify-content: center;
+    a {
+       color: #009541;
+    }
+}
+.info-contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .info-group {
+        font-size: 14px;
+        margin-right: 20px;
+        margin-left: 20px;
+        svg {
+            width: 15px;
+            height: 15px;
+        }
+        display: flex;
+        align-items: center;
+    }
+    @media screen and (max-width: 900px) {
+        .info-group {
+            display: none;
+        }
+    }
+}
