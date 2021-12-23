@@ -29,20 +29,20 @@ class NavigationBar extends React.Component {
                         <NavDropdown.Item href="/pilares">3 Pilares</NavDropdown.Item>
                         <NavDropdown.Item href="/metas">Metas</NavDropdown.Item>
                         <NavDropdown.Item href="/valores">Valores Permanentes</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item eventKey="4.4">All Itens</NavDropdown.Item>
+                        {/* <NavDropdown.Divider />
+                        <NavDropdown.Item eventKey="4.4">All Itens</NavDropdown.Item> */}
                     </NavDropdown>
                     <Nav.Item>
                         <Nav.Link href='/problematica'>Problematica</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-2">Projetos</Nav.Link>
+                        {/* <Nav.Link eventKey="link-2">Projetos</Nav.Link> */}
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-2">Blog</Nav.Link>
+                        {/* <Nav.Link href='/blog'>Blog</Nav.Link> */}
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-2">Contato</Nav.Link>
+                        {/* <Nav.Link eventKey="link-2">Contato</Nav.Link> */}
                     </Nav.Item>
                 </Nav>
                 {/* <Navbar bg="light" expand="lg">
